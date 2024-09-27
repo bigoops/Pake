@@ -15,6 +15,8 @@
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": "",
+        "decorations": false,
+        "title": "qc-book-rent"
         "wix": {
           "language": ["en-US"],
           "template": "assets/main.wxs"
