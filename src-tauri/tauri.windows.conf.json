@@ -16,9 +16,10 @@
         "digestAlgorithm": "sha256",
         "timestampUrl": "",
         "decorations": false,
-        "title": "qc-book-rent"
+        "title": "qc-book-rent",
+        "fullscreen": false,
         "wix": {
-          "language": ["en-US"],
+          "language": ["en-CN"],
           "template": "assets/main.wxs"
         }
       }
