@@ -1,20 +1,44 @@
 {
-  "tauri": {
-    "bundle": {
-      "icon": ["png/weread_512.png"],
-      "identifier": "com.pake.weread",
-      "active": true,
-      "category": "DeveloperTool",
-      "copyright": "",
-      "deb": {
-        "depends": ["curl", "wget"],
-        "files": { "/usr/share/applications/com-pake-weread.desktop": "assets/com-pake-weread.desktop" }
-      },
-      "externalBin": [],
-      "longDescription": "",
-      "resources": [],
-      "shortDescription": "",
-      "targets": ["deb", "appimage"]
-    }
-  }
+    "tauri": {
+        "bundle": {
+            "icon": [
+                "png/weread_512.png"
+            ],
+            "identifier": "com.pake.weread",
+            "active": true,
+            "category": "DeveloperTool",
+            "copyright": "",
+            "deb": {
+                "depends": [
+                    "curl",
+                    "wget"
+                ],
+                "files": {
+                    "/usr/share/applications/com-pake-weread.desktop": "assets/com-pake-weread.desktop"
+                }
+            },
+            "externalBin": [
+
+            ],
+            "longDescription": "",
+            "resources": [
+
+            ],
+            "shortDescription": "",
+            "targets": [
+                "deb",
+                "appimage"
+            ]
+        }
+    },
+    "windows": [
+        {
+            "fullscreen": true,
+            "height": 600,
+            "resizable": false,
+            "title": "qc-book-rent-client",
+            "width": 800,
+            "decorations": false
+        }
+    ]
 }
