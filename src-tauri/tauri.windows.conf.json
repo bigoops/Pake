@@ -17,7 +17,8 @@
         "timestampUrl": "",
         "decorations": false,
         "title": "qc-book-rent",
-        "fullscreen": false,
+        "fullscreen": true,
+        "maximized": true,
         "wix": {
           "language": ["en-CN"],
           "template": "assets/main.wxs"
