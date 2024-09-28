@@ -25,11 +25,11 @@ pub fn build_window(app: &mut App, config: PakeConfig, _data_dir: PathBuf) -> Wi
     );
 
     let mut window_builder = WindowBuilder::new(app, "pake", url)
-        .title("")
+        .title("123")
         .visible(false)
         .user_agent(user_agent)
-        .resizable(window_config.resizable)
-        .fullscreen(window_config.fullscreen)
+        .resizable(false)
+        .fullscreen(true)
         .inner_size(window_config.width, window_config.height)
         .always_on_top(window_config.always_on_top)
         .initialization_script(&config_script)
